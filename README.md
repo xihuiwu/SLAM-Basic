@@ -3,7 +3,7 @@ This is a basic introduction to <b>Simultaneous Localzation and Mapping</b> (SLA
 
 ## Introduction
 SLAM was originally developed by Hugh Durrant-Whyte and John J. Leonard [1](https://ieeexplore.ieee.org/document/88147). The SLAM is the technique that solves the problem of building a map of an unknown environment by the robot while localizing itself within the map.
-\
+\\
 SLAM are decomposed into multiple parts, including
 * landmark extraction
 * data association
