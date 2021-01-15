@@ -13,10 +13,10 @@ SLAM can be decomposed into multiple modules, including
 ### Landmark
 Landmarks are features which can be re-observed and distinguished from the environment. Through frequently observing the landmarks, robot can identify where it is. One key property of the landmarks is uniqueness which means that robot can easily identify landmarks even after some time-steps. Besides that, there should be plenty of landmarks in the map for localization. Thirdly, landmarks should be stationary. \
 In conclusion
-* Re-observable
-* Plenties of Landmarks
-* Unique
-* Stationary
+* re-observable
+* plenties of Landmarks
+* unique
+* stationary
 ### Landmark Extraction
 #### Spike Algorithm
 The spike landmark extraction algorithm uses extrema to find landmarks. They are identified by finding values in the range of a Lidar where two values differ by a threshold. Another way to find spikes are having three values next to each other, A, B, and C. Substracting B from A and B from C and adding the two numbers will yield a value. One drawback of the algorithm is the failure in smooth environments.
